@@ -10,7 +10,7 @@ spring:
       #基本属性
       url: jdbc:mysql://10.3.1.49:3306/mock_config?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       username: root
-      password: root@appinside
+      password: root
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
@@ -33,7 +33,7 @@ spring:
     database: 0
     host: 10.3.1.49
     port: 6379
-    password: 5EqhauyQ4D2i89nI
+    password: 1
     jedis:
       pool:
         max-total: 10
