@@ -1,0 +1,13 @@
+server:
+  port: 30098
+  tomcat:
+    max-threads: 500
+    min-spare-threads: 100
+spring:
+  application:
+    name: mock-config
+
+#FeignClient超时配置
+ribbon:
+  ReadTimeout: 6000
+  ConnectTimeout: 500
