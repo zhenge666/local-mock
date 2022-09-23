@@ -9,8 +9,8 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
       #基本属性
       url: jdbc:mysql://10.3.1.114:3306/mock_config?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-      username: crgt
-      password: ehgSqij59_lNWYwz
+      username: 11
+      password: 11
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
@@ -33,7 +33,7 @@ spring:
     database: 0
     host: 10.3.1.105
     port: 6379
-    password: 'fEd5GvUlcg2Kapk6'
+    password: '11'
     jedis:
       pool:
         max-total: 30
